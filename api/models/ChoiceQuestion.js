@@ -11,10 +11,11 @@ var ChoiceQuestion = {
         from:'string',
         categories:'string',
         analyse:'text',
-        paperId:'integer'
+        paperId:{
+            type:'integer',
+            defaultsTo:0
+        }
     }
 }
 module.exports = ChoiceQuestion;
-/**
- * Created by zilong on 2014/6/16.
- */
+

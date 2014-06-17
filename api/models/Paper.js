@@ -10,7 +10,8 @@ var Paper = {
         },
         level:{
             type:'string',
-            required:true
+            required:true,
+            index:true
         }
 
     }
